@@ -1,0 +1,44 @@
+.button-create {
+  --va-0-background-color: #1c78dd !important;
+  color: #ffffff !important;
+  width: 120px;
+  border-radius: 5px;
+  font-weight: 400;
+  height: 39px;
+  &:disabled {
+    opacity: 0.5 !important;
+  }
+}
+
+.button-cancel {
+  --va-0-background-color: #e4e4e4 !important;
+  color: #06152b !important;
+  width: 120px;
+  border-radius: 5px;
+  font-weight: 400;
+  height: 39px;
+  &:disabled {
+    opacity: 0.5 !important;
+  }
+}
+
+.button-delete {
+  --va-0-background-color: #bc0909 !important;
+  color: #ffffff !important;
+  width: 120px;
+  border-radius: 5px;
+  font-weight: 400;
+  height: 39px;
+  &:disabled {
+    opacity: 0.5 !important;
+  }
+}
+
+.btn-border {
+  border-right: 1px solid #1c78dd !important;
+  border-left: 1px solid #1c78dd !important;
+}
+.btn-active {
+  background-color: #1c78dd !important;
+  color: #ffffff !important;
+}

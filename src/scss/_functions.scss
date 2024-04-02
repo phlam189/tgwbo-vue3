@@ -1,0 +1,89 @@
+// This file contains CSS helper classes.
+//
+
+//------------------------------------| Gap |------------------------------------
+// (ex: .gap-5 { gap: 20px !important; })
+@for $value from 0 through 100 {
+  .gap-#{$value + 0} {
+    gap: $value * 4 + px !important;
+  }
+}
+
+//------------------------------------| Width |------------------------------------
+// (ex: .c-w-10 { width: 10px !important; })
+@for $value from 0 through 1000 {
+  .c-w-#{$value} {
+    width: $value + px !important;
+  }
+}
+
+//------------------------------------| Min Width |------------------------------------
+// (ex: .c-minw-10 { width: 10px !important; })
+@for $value from 0 through 1000 {
+  .c-minw-#{$value} {
+    min-width: $value + px !important;
+  }
+}
+
+//------------------------------------| Height |------------------------------------
+// (ex: .c-h-10 { height: 10px !important; })
+@for $value from 0 through 500 {
+  .c-h-#{$value} {
+    height: $value + px !important;
+  }
+}
+
+//------------------------------------| Margin & Padding All |------------------------------------
+// Margin-$ & Padding-$ For all
+// (ex: .c-m-10 { margin: 10px !important; })
+@for $value from 0 through 500 {
+  .c-m-#{$value} {
+    margin: $value + px !important;
+  }
+  .c-p-#{$value} {
+    padding: $value + px !important;
+  }
+
+  .c-mx-#{$value} {
+    margin-right: $value + px !important;
+    margin-left: $value + px !important;
+  }
+  .c-my-#{$value} {
+    margin-top: $value + px !important;
+    margin-bottom: $value + px !important;
+  }
+  .c-px-#{$value} {
+    padding-right: $value + px !important;
+    padding-left: $value + px !important;
+  }
+  .c-py-#{$value} {
+    padding-top: $value + px !important;
+    padding-bottom: $value + px !important;
+  }
+
+  .c-mt-#{$value} {
+    margin-top: $value + px !important;
+  }
+  .c-mr-#{$value} {
+    margin-right: $value + px !important;
+  }
+  .c-mb-#{$value} {
+    margin-bottom: $value + px !important;
+  }
+  .c-ml-#{$value} {
+    margin-left: $value + px !important;
+  }
+
+  .c-pt-#{$value} {
+    padding-top: $value + px !important;
+  }
+  .c-pr-#{$value} {
+    padding-right: $value + px !important;
+  }
+  .c-pb-#{$value} {
+    padding-bottom: $value + px !important;
+  }
+  .c-pl-#{$value} {
+    padding-left: $value + px !important;
+  }
+}

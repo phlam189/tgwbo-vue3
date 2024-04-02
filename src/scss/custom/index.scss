@@ -1,0 +1,182 @@
+@import 'variable';
+@import 'input.scss';
+@import 'button.scss';
+@import 'table.scss';
+@import 'modal.scss';
+@import 'typography.scss';
+@import 'loading.scss';
+//--va-font-family:
+* {
+  //font-family: "Noto Sans JP", "Source Sans Pro", sans-serif !important;
+  --va-font-family: 'Noto Sans JP', 'Source Sans Pro', Avenir, Helvetica, Arial, sans-serif;
+  //color: rgba(120, 139, 154, 1);
+}
+
+.title {
+  //font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #06152b;
+}
+
+// can't change this css
+.va-popover__content {
+  background-color: #ffffff !important;
+  z-index: 9999;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-col {
+  flex-direction: column;
+}
+
+.d-flex-center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.d-flex-between {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.d-flex-around {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+.d-flex-start {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.d-flex-end {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.hr-line {
+  height: 1px;
+  width: 100%;
+  background-color: #cccccc;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-primary {
+  background-color: var(--va-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--va-secondary) !important;
+}
+
+.bg-info {
+  background-color: var(--va-info) !important;
+}
+
+.bg-danger {
+  background-color: var(--va-danger) !important;
+}
+
+.text-primary {
+  color: var(--va-primary) !important;
+}
+
+.text-secondary {
+  color: var(--va-secondary) !important;
+}
+
+.text-info {
+  color: var(--va-info) !important;
+}
+
+.text-danger {
+  color: var(--va-danger) !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.page-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #06152b;
+}
+
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 23px;
+  color: #06152b;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+//noto is font in figma design. The rest `'Source Sans Pro', Avenir, Helvetica, Arial, sans-serif` is default font of vuestic admin
+.font-with-noto {
+  font-family: 'Noto Sans JP', 'Source Sans Pro', Avenir, Helvetica, Arial, sans-serif !important;
+}
+
+.mark-required {
+  color: red;
+}
+
+.va-popover__body {
+  line-break: anywhere !important;
+  max-width: 500px;
+  overflow: auto;
+}

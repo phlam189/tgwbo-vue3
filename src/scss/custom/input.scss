@@ -1,0 +1,72 @@
+.lable-input {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #435564;
+  margin-bottom: 5px;
+}
+
+.va-input-wrapper {
+  --va-input-wrapper-background: #ffffff;
+  border: 1px solid #788b9a;
+  border-radius: 4px;
+  .va-input__content__input::placeholder {
+    color: #788b9a;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.va-input-wrapper__field {
+  border: none;
+  .va-select-content__placeholder {
+    font-family: 'Noto Sans JP';
+    color: #788b9a;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.va-input-wrapper__text {
+  color: #435564;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.va-input-wrapper__field input,
+.va-input-wrapper__field textarea {
+  color: #435564;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.va-select__toggle-icon {
+  color: #788b9a !important;
+}
+
+.va-date-input {
+  .material-icons {
+    font-size: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    width: 18px;
+    color: #788b9a !important;
+  }
+}
+
+.va-date-input__dropdown-content {
+  z-index: 1000;
+}
+
+.va-select-dropdown__content {
+  z-index: 999;
+}
+
+.va-date-picker__picker-wrapper:has(.va-month-picker) {
+  height: unset;
+  max-height: var(--va-date-picker-content-height);
+}
+
+.va-date-picker:has(.va-year-picker) {
+  width: 120px;
+}

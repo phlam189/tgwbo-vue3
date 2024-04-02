@@ -1,0 +1,22 @@
+.va-modal__overlay {
+  background-color: #06152b !important;
+  opacity: 0.7;
+}
+.va-modal__close {
+  display: none;
+}
+.va-modal__inner {
+  padding: 20px !important;
+}
+
+.modal_confirm {
+  .va-modal__inner {
+    padding: 20px 0px 20px 0px !important;
+  }
+}
+
+.modal_edit, .modal_view {
+  .va-modal__inner {
+    padding-right: 10px !important;
+  }
+}

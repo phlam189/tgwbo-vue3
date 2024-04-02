@@ -1,0 +1,27 @@
+@import 'vuestic-sass/index';
+@import 'icon-fonts/index';
+@import 'custom/index';
+@import '_functions.scss';
+
+.app-layout__page {
+  background-color: #ebecf1;
+}
+.app-layout {
+  overflow-y: hidden;
+  min-width: 720px;
+}
+
+/* scroll all page */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c0c4d5;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
